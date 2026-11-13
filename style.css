@@ -1339,3 +1339,46 @@ select {
         transition-duration: 0.01ms !important;
     }
 }
+
+/* JavaScript interaction styles */
+
+.nav-links a.active-link:not(.btn) {
+    color: var(--primary);
+    font-weight: 800;
+}
+
+.dashboard {
+    opacity: 0.85;
+    transform: translateY(15px);
+    transition: opacity 0.7s ease, transform 0.7s ease;
+}
+
+.dashboard.dashboard-visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.task-item[role="button"] {
+    cursor: pointer;
+    border-radius: 6px;
+    transition: background 0.2s ease;
+}
+
+.task-item[role="button"]:hover {
+    background: #faf9ff;
+}
+
+.task-item[role="button"]:focus-visible {
+    outline: 2px solid var(--primary);
+    outline-offset: 2px;
+}
+
+.field-error {
+    color: #d14343;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .dashboard {
+        transition: none;
+    }
+}
