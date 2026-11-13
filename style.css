@@ -58,7 +58,7 @@ select {
 .section-tag {
     display: inline-block;
     color: var(--primary);
-    font-size: 10px;
+    font-size: 15px;
     font-weight: 800;
     letter-spacing: 2px;
     margin-bottom: 16px;
@@ -175,7 +175,7 @@ select {
 }
 
 .nav-links > a:not(.btn) {
-    font-size: 12px;
+    font-size: 15px;
     font-weight: 600;
     color: #5e5c6b;
     transition: 0.2s;
@@ -223,7 +223,7 @@ select {
 
 .eyebrow {
     color: var(--primary);
-    font-size: 10px;
+    font-size: 15px;
     font-weight: 800;
     letter-spacing: 2px;
     margin-bottom: 22px;
@@ -257,7 +257,7 @@ select {
 .hero-description {
     max-width: 460px;
     margin: 22px 0 27px;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 1.9;
     color: var(--text);
 }
@@ -361,7 +361,7 @@ select {
 }
 
 .dashboard-header small {
-    font-size: 8px;
+    font-size: 15px;
     color: #aaa8b2;
     font-weight: 800;
     letter-spacing: 1.5px;
@@ -387,13 +387,13 @@ select {
     display: flex;
     justify-content: space-between;
     margin-top: 25px;
-    font-size: 10px;
+    font-size: 12px;
     font-weight: 700;
 }
 
 .week-label {
     color: #9996a3;
-    font-size: 9px;
+    font-size: 12px;
 }
 
 .project-progress {
@@ -403,7 +403,7 @@ select {
 .progress-info {
     display: flex;
     justify-content: space-between;
-    font-size: 10px;
+    font-size: 12px;
 }
 
 .progress-info b {
@@ -440,7 +440,7 @@ select {
 
 .stat-box small {
     display: block;
-    font-size: 8px;
+    font-size: 10px;
     color: #92909c;
 }
 
@@ -466,12 +466,12 @@ select {
     display: flex;
     justify-content: space-between;
     margin: 20px 0 9px;
-    font-size: 10px;
+    font-size: 14px;
 }
 
 .task-heading span {
     color: var(--primary);
-    font-size: 9px;
+    font-size: 12px;
 }
 
 .task-item {
@@ -492,7 +492,7 @@ select {
     display: grid;
     place-items: center;
     border-radius: 7px;
-    font-size: 13px;
+    font-size: 15px;
 }
 
 .purple {
@@ -520,16 +520,16 @@ select {
 }
 
 .task-details strong {
-    font-size: 9px;
+    font-size: 12px;
 }
 
 .task-details small {
-    font-size: 8px;
+    font-size: 12px;
     color: #aaa7b1;
 }
 
 .task-status {
-    font-size: 8px;
+    font-size: 10px;
     padding: 4px 7px;
     border-radius: 5px;
 }
@@ -580,12 +580,12 @@ select {
 }
 
 .floating-card strong {
-    font-size: 9px;
+    font-size: 11px;
 }
 
 .floating-card small {
     color: #9996a2;
-    font-size: 8px;
+    font-size: 10px;
 }
 
 /* 6. TRUST SECTION */
@@ -597,7 +597,7 @@ select {
 
 .trust-section p {
     color: #a5a2af;
-    font-size: 9px;
+    font-size: 11px;
     font-weight: 800;
     letter-spacing: 2px;
 }
@@ -829,7 +829,7 @@ select {
 .pricing-heading p {
     margin-top: 12px;
     color: var(--text);
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .pricing-grid {
@@ -861,7 +861,7 @@ select {
     border-radius: 5px;
     background: var(--primary);
     color: white;
-    font-size: 8px;
+    font-size: 10px;
     font-weight: 800;
     letter-spacing: 1px;
 }
@@ -915,7 +915,7 @@ select {
     margin-top: 18px;
     text-align: center;
     color: #a5a2ad;
-    font-size: 9px;
+    font-size: 11px;
 }
 
 /* 10. CONTACT SECTION */
@@ -944,12 +944,12 @@ select {
     max-width: 350px;
     margin: 18px 0 24px;
     color: var(--text);
-    font-size: 12px;
+    font-size: 14px;
     line-height: 1.9;
 }
 
 .contact-email {
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 700;
 }
 
@@ -972,13 +972,13 @@ select {
 .contact-form > p {
     margin: 5px 0 17px;
     color: var(--text);
-    font-size: 10px;
+    font-size: 14px;
 }
 
 .contact-form label {
     display: block;
     margin: 12px 0 6px;
-    font-size: 10px;
+    font-size: 14px ;
     font-weight: 700;
 }
 
@@ -990,7 +990,7 @@ select {
     border-radius: 7px;
     outline: none;
     background: white;
-    font-size: 11px;
+    font-size: 14px;
     color: var(--dark);
     transition: 0.2s;
 }
@@ -1010,7 +1010,7 @@ select {
     min-height: 18px;
     margin-top: 10px;
     color: #278b62;
-    font-size: 11px;
+    font-size: 14px;
 }
 
 .form-message.error {
@@ -1063,7 +1063,7 @@ select {
     padding-top: 17px;
     border-top: 1px solid #403e49;
     color: #a5a2af;
-    font-size: 9px;
+    font-size: 12px;
 }
 
 .footer-bottom a {
