@@ -1,0 +1,468 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="FlowDesk helps teams manage projects, organize tasks and collaborate in one simple workspace.">
+    <title>FlowDesk | Work Smarter, Together</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- NAVIGATION -->
+    <header class="header">
+        <nav class="navbar container">
+            <a href="#home" class="logo">
+                <span class="logo-icon">F</span>
+                flowdesk<span class="logo-dot">.</span>
+            </a>
+
+            <button class="menu-toggle" id="menuToggle"
+                aria-label="Toggle navigation" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+
+            <div class="nav-links" id="navLinks">
+                <a href="#home">Home</a>
+                <a href="#features">Features</a>
+                <a href="#about">How It Works</a>
+                <a href="#pricing">Pricing</a>
+                <a href="#contact">Contact</a>
+                <a href="#contact" class="btn btn-dark nav-button">Get Started ↗</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- HERO SECTION -->
+        <section class="hero" id="home">
+            <div class="container hero-grid">
+
+                <div class="hero-content">
+                    <div class="eyebrow">
+                        <span class="live-dot"></span>
+                        THE SMARTER WAY TO WORK
+                    </div>
+
+                    <h1>
+                        Bring your team.
+                        <span>Bring your ideas.</span>
+                        Bring it all together.
+                    </h1>
+
+                    <p class="hero-description">
+                        Meet FlowDesk, your all-in-one workspace to organize
+                        projects, manage tasks and help your team achieve
+                        more with less effort.
+                    </p>
+
+                    <div class="hero-buttons">
+                        <a href="#pricing" class="btn btn-primary">
+                            Get Started <span>↗</span>
+                        </a>
+                        <a href="#about" class="btn btn-light">
+                            Explore Platform →
+                        </a>
+                    </div>
+
+                    <div class="hero-trust">
+                        <div class="avatar-group">
+                            <span>A</span>
+                            <span>R</span>
+                            <span>M</span>
+                            <span>+</span>
+                        </div>
+                        <div>
+                            <strong>Built for better teamwork</strong>
+                            <p>One workspace. Endless possibilities.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CSS DASHBOARD ILLUSTRATION -->
+                <div class="hero-visual">
+                    <div class="visual-circle circle-one"></div>
+                    <div class="visual-circle circle-two"></div>
+
+                    <div class="dashboard">
+
+                        <div class="dashboard-header">
+                            <div>
+                                <small>YOUR WORKSPACE</small>
+                                <h3>Good morning, Alex! ✨</h3>
+                            </div>
+                            <div class="profile-icon">A</div>
+                        </div>
+
+                        <div class="dashboard-welcome">
+                            <span>Project Overview</span>
+                            <span class="week-label">This Week⌄</span>
+                        </div>
+
+                        <div class="project-progress">
+                            <div class="progress-info">
+                                <strong>Website Redesign</strong>
+                                <b>75%</b>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-fill"></div>
+                            </div>
+                        </div>
+
+                        <div class="stats-grid">
+                            <div class="stat-box">
+                                <small>Completed Tasks</small>
+                                <h2>24</h2>
+                                <span class="positive">↑ 12% this week</span>
+                            </div>
+                            <div class="stat-box">
+                                <small>Pending Tasks</small>
+                                <h2>08</h2>
+                                <span class="neutral">On schedule</span>
+                            </div>
+                        </div>
+
+                        <div class="task-heading">
+                            <strong>Recent Tasks</strong>
+                            <span>View all →</span>
+                        </div>
+
+                        <div class="task-item">
+                            <div class="task-symbol purple">✦</div>
+                            <div class="task-details">
+                                <strong>Design homepage</strong>
+                                <small>Design Team</small>
+                            </div>
+                            <span class="task-status progress-status">Active</span>
+                        </div>
+
+                        <div class="task-item">
+                            <div class="task-symbol green">✓</div>
+                            <div class="task-details">
+                                <strong>Update content</strong>
+                                <small>Content Team</small>
+                            </div>
+                            <span class="task-status done-status">Done</span>
+                        </div>
+
+                        <div class="task-item">
+                            <div class="task-symbol orange">↗</div>
+                            <div class="task-details">
+                                <strong>Review project</strong>
+                                <small>Management</small>
+                            </div>
+                            <span class="task-status pending-status">Pending</span>
+                        </div>
+                    </div>
+
+                    <div class="floating-card">
+                        <span class="success-icon">✓</span>
+                        <div>
+                            <strong>You're doing great!</strong>
+                            <small>Project progress is on track.</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- TRUST SECTION -->
+        <section class="trust-section">
+            <div class="container">
+                <p>DESIGNED FOR TEAMS THAT THINK BIG</p>
+                <div class="trust-logos">
+                    <span>◈ vertex</span>
+                    <span>northstar.</span>
+                    <span>orbit+</span>
+                    <span>✳ creativeco</span>
+                    <span>kinetic</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- FEATURES SECTION -->
+        <section class="section features" id="features">
+            <div class="container">
+
+                <div class="section-heading">
+                    <div>
+                        <span class="section-tag">OUR FEATURES</span>
+                        <h2>Everything you need.<br>
+                            <span>All in one place.</span>
+                        </h2>
+                    </div>
+                    <p>
+                        From planning your next big idea to tracking daily
+                        progress, FlowDesk gives your team the tools to work
+                        together efficiently.
+                    </p>
+                </div>
+
+                <div class="feature-grid">
+
+                    <article class="feature-card feature-purple">
+                        <div class="feature-icon">▦</div>
+                        <h3>Project Management</h3>
+                        <p>
+                            Organize projects, set priorities and manage
+                            every task from a single workspace.
+                        </p>
+                        <div class="feature-bottom">
+                            <span>Plan your work</span>
+                            <span>↗</span>
+                        </div>
+                    </article>
+
+                    <article class="feature-card feature-green">
+                        <div class="feature-icon">◎</div>
+                        <h3>Team Collaboration</h3>
+                        <p>
+                            Keep everyone connected with shared updates,
+                            team communication and clear responsibilities.
+                        </p>
+                        <div class="feature-bottom">
+                            <span>Work together</span>
+                            <span>↗</span>
+                        </div>
+                    </article>
+
+                    <article class="feature-card feature-orange">
+                        <div class="feature-icon">↗</div>
+                        <h3>Progress Tracking</h3>
+                        <p>
+                            Monitor project performance, identify delays
+                            and understand what needs attention.
+                        </p>
+                        <div class="feature-bottom">
+                            <span>Track progress</span>
+                            <span>↗</span>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- ABOUT / HOW IT WORKS -->
+        <section class="section about" id="about">
+            <div class="container about-grid">
+
+                <div class="about-visual">
+                    <div class="about-circle">
+                        <span>F</span>
+                    </div>
+                    <div class="orbit orbit-a"></div>
+                    <div class="orbit orbit-b"></div>
+                    <div class="orbit-label label-a">One shared space</div>
+                    <div class="orbit-label label-b">Better teamwork</div>
+                    <div class="orbit-label label-c">Clear progress</div>
+                </div>
+
+                <div class="about-content">
+                    <span class="section-tag">HOW IT WORKS</span>
+                    <h2>Less confusion.<br>
+                        <span>More productivity.</span>
+                    </h2>
+
+                    <p class="about-description">
+                        FlowDesk makes managing work simple. Bring your team
+                        together, organize your projects and focus on what
+                        really matters.
+                    </p>
+
+                    <div class="steps">
+
+                        <div class="step">
+                            <span class="step-number">01</span>
+                            <div>
+                                <h3>Create Your Workspace</h3>
+                                <p>Set up your workspace and invite your team members.</p>
+                            </div>
+                        </div>
+
+                        <div class="step">
+                            <span class="step-number">02</span>
+                            <div>
+                                <h3>Organize Your Projects</h3>
+                                <p>Create projects, assign tasks and set deadlines.</p>
+                            </div>
+                        </div>
+
+                        <div class="step">
+                            <span class="step-number">03</span>
+                            <div>
+                                <h3>Track Your Progress</h3>
+                                <p>Monitor work, share updates and achieve your goals.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PRICING SECTION -->
+        <section class="section pricing" id="pricing">
+            <div class="container">
+
+                <div class="pricing-heading">
+                    <span class="section-tag">SIMPLE PRICING</span>
+                    <h2>Plans that grow <span>with you.</span></h2>
+                    <p>Choose a plan that works best for your team.</p>
+                </div>
+
+                <div class="pricing-grid">
+
+                    <article class="price-card">
+                        <h3>Starter</h3>
+                        <p>Perfect for individuals and small teams.</p>
+
+                        <div class="price">
+                            Free <small>forever</small>
+                        </div>
+
+                        <a href="#contact" class="btn btn-outline"
+                           data-plan="Starter">
+                            Get Started
+                        </a>
+
+                        <div class="included">WHAT'S INCLUDED</div>
+
+                        <ul>
+                            <li>✓ Up to 3 team members</li>
+                            <li>✓ 2 active projects</li>
+                            <li>✓ Basic task management</li>
+                            <li>✓ Project overview</li>
+                            <li>✓ Email support</li>
+                        </ul>
+                    </article>
+
+                    <article class="price-card featured-price">
+                        <span class="popular-badge">MOST POPULAR</span>
+
+                        <h3>Professional</h3>
+                        <p>For growing teams and businesses.</p>
+
+                        <div class="price">
+                            ₹499 <small>/ user / month</small>
+                        </div>
+
+                        <a href="#contact" class="btn btn-primary"
+                           data-plan="Professional">
+                            Start Pro Trial ↗
+                        </a>
+
+                        <div class="included">EVERYTHING IN STARTER, PLUS</div>
+
+                        <ul>
+                            <li>✓ Unlimited projects</li>
+                            <li>✓ Up to 25 team members</li>
+                            <li>✓ Advanced task management</li>
+                            <li>✓ Team reports and insights</li>
+                            <li>✓ Priority support</li>
+                        </ul>
+                    </article>
+
+                </div>
+
+                <p class="pricing-note">
+                    Sample pricing for demonstration purposes.
+                    No payment is collected.
+                </p>
+            </div>
+        </section>
+
+        <!-- CONTACT SECTION -->
+        <section class="section contact" id="contact">
+            <div class="container contact-wrapper">
+
+                <div class="contact-content">
+                    <span class="section-tag">LET'S CONNECT</span>
+                    <h2>Ready to work<br>
+                        <span>smarter together?</span>
+                    </h2>
+                    <p>
+                        Tell us about your team and discover how FlowDesk
+                        can make your everyday work easier.
+                    </p>
+
+                    <div class="contact-email">
+                        <span>✉</span>
+                        hello@flowdesk.example
+                    </div>
+                </div>
+
+                <form class="contact-form" id="demoForm" novalidate>
+                    <h3>Request a Free Demo</h3>
+                    <p>Fill in your details and get started.</p>
+
+                    <label for="fullName">Full Name</label>
+                    <input type="text" id="fullName"
+                        placeholder="Enter your full name"
+                        minlength="2" required>
+
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email"
+                        placeholder="Enter your email address"
+                        required>
+
+                    <label for="teamSize">Team Size</label>
+                    <select id="teamSize" required>
+                        <option value="">Select your team size</option>
+                        <option value="Just me">Just me</option>
+                        <option value="2-5 people">2–5 people</option>
+                        <option value="6-20 people">6–20 people</option>
+                        <option value="21+ people">21+ people</option>
+                    </select>
+
+                    <button type="submit" class="btn btn-primary submit-btn">
+                        Request My Demo ↗
+                    </button>
+
+                    <div id="formMessage" class="form-message"
+                         role="status" aria-live="polite"></div>
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+
+            <div class="footer-main">
+                <div class="footer-brand">
+                    <a href="#home" class="logo footer-logo">
+                        <span class="logo-icon">F</span>
+                        flowdesk<span class="logo-dot">.</span>
+                    </a>
+                    <p>Make space for work that matters.</p>
+                </div>
+
+                <div class="footer-links">
+                    <a href="#home">Home</a>
+                    <a href="#features">Features</a>
+                    <a href="#pricing">Pricing</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>© <span id="year"></span> FlowDesk. All rights reserved.</p>
+                <a href="#home">Back to top ↑</a>
+            </div>
+
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
